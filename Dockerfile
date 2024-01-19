@@ -5,9 +5,9 @@ RUN apt update && \
     apt clean && \
     wget https://github.com/WithSecureLabs/chainsaw/releases/download/v2.8.1/chainsaw_x86_64-unknown-linux-gnu.tar.gz && \
     tar -xzf chainsaw*.tar.gz && \
-    rm -v *.tar *.tar.gz
+    rm -v *.tar.gz
 
-COPY --chmod=755 ./scripts/* /scripts/
+COPY ./scripts/* /scripts/
 
 WORKDIR /chainsaw
 
