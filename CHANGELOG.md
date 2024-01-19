@@ -12,5 +12,6 @@ This file will be used to document notable changes
 ### Changed
 
 - Fixed Dockerfile errors in initial commit
+- Added workflow
 
 
