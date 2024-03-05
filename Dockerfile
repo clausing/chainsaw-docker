@@ -8,7 +8,7 @@ RUN apt update && \
     apt install wget unzip -y && \
     apt clean && \
     wget https://github.com/WithSecureLabs/chainsaw/releases/download/v2.8.1/chainsaw_x86_64-unknown-linux-gnu.tar.gz && \
-    unzip chainsaw*.tar.gz && \
+    tar xzf chainsaw*.tar.gz && \
     wget https://github.com/SigmaHQ/sigma/releases/download/r2024-02-26/sigma_core++.zip && \
     unzip sigma*.zip && \
     mv rules chainsaw/ && \

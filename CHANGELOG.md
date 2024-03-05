@@ -8,6 +8,7 @@ This file will be used to document notable changes
 ### Changed
 
 - Fixed typo in run_chainsaw.sh
+- Get most recent Sigma rule set
 
 ## 2024-03-04
 
