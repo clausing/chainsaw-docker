@@ -1,6 +1,6 @@
 #!/bin/sh
 
 /chainsaw/chainsaw hunt -j /chainsaw/evtx_files \
-    --rules /chainsaw/sigma_rules/ \
+    --rule /chainsaw/sigma_rules/ \
     --mapping /chainsaw/mapping_files/sigma-mapping.yml \
     --output chainsaw.json

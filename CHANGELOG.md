@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2024-03-05
+
+### Changed
+
+- Fixed typo in run_chainsaw.sh
+
 ## 2024-03-04
 
 ### Changed
