@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2024-07-11
+
+### Changed
+
+- Update to chainsaw 2.9.2 and Sigma r2024-05-13 Core++ rules
+
 ## 2024-07-01
 
 ### Changed
