@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2024-07-17
+
+### Changed
+
+- Update Sigma rules to r2024-07-17 Core++
+
 ## 2024-07-11
 
 ### Changed
