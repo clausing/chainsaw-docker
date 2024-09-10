@@ -3,6 +3,18 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2024-09-10
+
+### Changed
+
+- Update Sigma rules to r2024-09-02 Core++
+
+## 2024-08-19
+
+### Changed
+
+- Update to chainsaw 2.9.3
+
 ## 2024-07-17
 
 ### Changed
