@@ -1,15 +1,15 @@
 
 FROM debian:stable-slim
 LABEL maintainer="Jim Clausing, jclausing@isc.sans.edu"
-LABEL version="chainsaw 2.9.3 + Sigma r2024-11-10 Core++"
+LABEL version="chainsaw 2.10.4 + Sigma r2024-12-19 Core++"
 LABEL description="Run chainsaw in a docker container"
 
 RUN apt update && \
     apt install wget unzip -y && \
     apt clean && \
-    wget https://github.com/WithSecureLabs/chainsaw/releases/download/v2.9.3/chainsaw_all_platforms+rules.zip && \
+    wget https://github.com/WithSecureLabs/chainsaw/releases/download/v2.10.4/chainsaw_all_platforms+rules.zip && \
     unzip chainsaw*.zip && \
-    wget https://github.com/SigmaHQ/sigma/releases/download/r2024-11-10/sigma_core++.zip && \
+    wget https://github.com/SigmaHQ/sigma/releases/download/r2024-12-19/sigma_core++.zip && \
     unzip sigma*.zip && \
     rm -rf chainsaw/sigma && \
     mv rules chainsaw/sigma && \
