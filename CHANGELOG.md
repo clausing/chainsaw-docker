@@ -3,7 +3,13 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
-## 2024-02-13
+## 2025-03-24
+
+### Changed
+
+- Update to chainsaw 2.12.2 (also required installing perl Term::Readline)
+
+## 2025-02-13
 
 ### Changed
 
