@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2025-10-07
+
+### Changed
+
+- Update to chainsaw 2.13.1 (same rules as yesterday)
+
 ## 2025-10-06
 
 ### Changed
