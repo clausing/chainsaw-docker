@@ -1,15 +1,15 @@
 
 FROM debian:stable-slim
 LABEL maintainer="Jim Clausing, jclausing@isc.sans.edu"
-LABEL version="chainsaw 2.16.0 + Sigma r2026-04-01 Core++"
+LABEL version="chainsaw 2.16.3 + Sigma r2026-07-01 Core++"
 LABEL description="Run chainsaw in a docker container"
 
 RUN apt update && \
     apt install wget unzip libterm-readline-perl-perl -y && \
     apt clean && \
-    wget https://github.com/WithSecureLabs/chainsaw/releases/download/v2.16.0/chainsaw_all_platforms+rules.zip && \
+    wget https://github.com/WithSecureLabs/chainsaw/releases/download/v2.16.3/chainsaw_all_platforms+rules.zip && \
     unzip chainsaw*.zip && \
-    wget https://github.com/SigmaHQ/sigma/releases/download/r2026-04-01/sigma_core++.zip && \
+    wget https://github.com/SigmaHQ/sigma/releases/download/r2026-07-01/sigma_core++.zip && \
     unzip sigma*.zip && \
     rm -rf chainsaw/sigma && \
     mv rules chainsaw/sigma && \
